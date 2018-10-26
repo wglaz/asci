@@ -4,8 +4,11 @@
 int main() {
     int znak;
 
-    for (znak = 0; znak < 256; znak++) {
+    znak = 0;
+
+    while(znak < 256)  {
         printf("wartosc calkowita: %d,\t kod ASCII %c\n", znak, znak);
+        znak++;
     }
     return 0;
 }
